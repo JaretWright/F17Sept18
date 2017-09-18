@@ -27,7 +27,7 @@ public class ShowingFinally {
         catch (Exception e)
         {
             System.err.println("Exception handled in method throwsException");
-           // throw e;
+            throw e;
         }
         finally
         {
